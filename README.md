@@ -6,7 +6,7 @@ To-Do app is designed to simplify the process of jotting down and managing your 
 
 ### Prerequisites and ### Installation
 
-1. npm install
-2. npm run server
-3. npm start
+1. Run npm install in your terminal.
+2. Run npm run server in your terminal
+3. open a new terminal and than run npm start
 4. You're good to go!
