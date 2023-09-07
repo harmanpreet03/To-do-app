@@ -70,11 +70,11 @@
 }
 
 .link-div a {
-  color: #0077B5;
+  color: #ffffff;
   text-decoration: none;
   transition: color 0.2s ease;
   padding: 5px 15px;
-  border: 2px solid #0077B5;
+  border: 2px solid #2200ff;
   border-radius: 20px;
   background-image: url('');
   
@@ -82,8 +82,8 @@
 }
 
 .link-div a:hover {
-  color: #00548A;
-  background-color: #0077B5;
+  color: #0004ff;
+  background-color: #5d7a8a;
   text-decoration: none;
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -107,7 +107,7 @@
 }
 
 .link-div a {
-  color: #0b2bfc;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -163,3 +163,44 @@
   background-size: cover;
 }
 
+.container {
+  background-image: url('https://4kwallpapers.com/images/wallpapers/electric-neon-colorful-dark-background-lighting-1920x1200-2654.jpg');
+
+}
+
+.task-container {
+  display: inline-table;
+}
+
+.todo-app {
+  display: inline-table;
+  color: crimson;
+  
+}
+
+.button-class:hover {
+  color: #000000;
+  background-color: #697172d8;
+  text-decoration: none;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.one-card:hover {
+  color: #000000;
+  background-color: #21aaffb8;
+  text-decoration: none;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.container form input:hover {
+  color: #ffffff;
+  background-color: #330eea36;
+  text-decoration: none;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}

@@ -8,5 +8,5 @@ To-Do app is designed to simplify the process of jotting down and managing your 
 
 1. Run npm install in your terminal.
 2. Run npm run server in your terminal
-3. open a new terminal and than run npm start
+3. open a new terminal and than run npm start, click " your local: http://localhost:5173/ to run the app"
 4. You're good to go!
