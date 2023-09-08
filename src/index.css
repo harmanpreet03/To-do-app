@@ -100,6 +100,7 @@
   color: #555;
   animation: glow 3s infinite;
   transition: background-color 0.3s ease; /* Add a transition for smooth hover effect */
+  margin-right: 10px;
 }
 
 .one-card:hover {
@@ -193,6 +194,7 @@
   text-decoration: none;
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  
 
 }
 
@@ -203,4 +205,60 @@
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
+}
+
+.one-card button {
+  display: revert;
+  
+}
+
+.Onecard .one-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.Onecard .one-card button {
+  margin-left: 15px; 
+}
+
+
+
+.todo-app {
+  font-family: 'Dancing Script', cursive; 
+  font-size: 72px; 
+  color: #ff6f61; 
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px; 
+  margin-bottom: 20px; 
+  transform: rotate(-3deg) scale(1.3); 
+  transition: transform 0.3s ease-in-out; 
+  position: relative; 
+}
+
+.todo-app::before,
+.todo-app::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px; 
+  background-color: #ff6f61; 
+  bottom: -5px; 
+  left: 0;
+  z-index: -1; 
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.todo-app:hover::before,
+.todo-app:hover::after {
+  transform: scaleX(1); 
+}
+
+
+.todo-app:hover {
+  text-decoration: none; 
 }

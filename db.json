@@ -2,10 +2,10 @@
   "yesterday": [
     {
       "id": 1,
-      "item": "Do laundry"
+      "item": "catchup on Netflix"
     },
     {
-      "item": "Go for a Walk Outside",
+      "item": "catchup on Netflix",
       "id": 2
     },
     {
@@ -13,24 +13,16 @@
       "id": 3
     },
     {
-      "item": "Do the Blog",
+      "item": "catchup on Netflix",
       "id": 4
     },
     {
-      "item": "Do the Project",
+      "item": "catchup on Netflix",
       "id": 5
     }
   ],
   "today": [
     {
-      "id": 1,
-      "item": "Do laundry"
-    },
-    {
-      "item": "Go for a Walk Outside",
-      "id": 2
-    },
-    {
       "item": "catchup on Netflix",
       "id": 3
     },
@@ -41,6 +33,14 @@
     {
       "item": "Do the Project",
       "id": 5
+    },
+    {
+      "item": "hh",
+      "id": 6
+    },
+    {
+      "item": "task 8",
+      "id": 7
     }
   ],
   "tomorrow": [
